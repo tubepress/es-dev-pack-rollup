@@ -1,6 +1,6 @@
 {
   "name": "@tubepress/dev-pack-rollup",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "devDependencies for TubePress libraries built with Babel and Rollup",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
@@ -11,6 +11,8 @@
     "@babel/cli"                     : "^7.2",
     "@babel/core"                    : "^7.3",
     "@babel/preset-env"              : "^7.3",
+
+    "@babel/plugin-transform-runtime" : "^7.3",
 
     "rimraf"                         : "^2.6",
 
