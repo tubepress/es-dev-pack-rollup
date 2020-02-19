@@ -1,28 +1,28 @@
 {
   "name": "@tubepress/dev-pack-rollup",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "devDependencies for TubePress libraries built with Babel and Rollup",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
   "dependencies": {
 
-    "@tubepress/dev-pack-base" : "^1.0",
+    "@tubepress/dev-pack-base" : "^2.0",
 
-    "@babel/cli"                     : "^7.2",
-    "@babel/core"                    : "^7.3",
-    "@babel/preset-env"              : "^7.3",
+    "@babel/cli"                     : "^7.8",
+    "@babel/core"                    : "^7.8",
+    "@babel/preset-env"              : "^7.8",
 
-    "@babel/plugin-transform-runtime" : "^7.3",
+    "@babel/plugin-transform-runtime" : "^7.8",
 
-    "rimraf"                         : "^2.6",
+    "rimraf"                         : "^3.0",
 
-    "rollup"                         : "^1.2",
-    "rollup-plugin-node-resolve"     : "^4.0",
-    "rollup-plugin-commonjs"         : "^9.2",
+    "rollup"                         : "^1.31",
+    "@rollup/plugin-node-resolve"    : "^7.1",
+    "@rollup/plugin-commonjs"        : "^11.0",
     "rollup-plugin-babel"            : "^4.3",
-    "rollup-plugin-replace"          : "^2.1",
-    "rollup-plugin-size-snapshot"    : "^0.8",
-    "rollup-plugin-terser"           : "^4.0",
-    "rollup-plugin-visualizer"       : "^1.0"
+    "@rollup/plugin-replace"         : "^2.2",
+    "rollup-plugin-size-snapshot"    : "^0.11",
+    "rollup-plugin-terser"           : "^5.2",
+    "rollup-plugin-visualizer"       : "^3.3"
   }
 }
